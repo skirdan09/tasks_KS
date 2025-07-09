@@ -15,9 +15,10 @@
                 // Генерация случайной буквы от 'a' до 'z'
                 array[i] = (char)rnd.Next('a', 'z' + 1);
             }
-            foreach (char el in array)
+            
             Console.WriteLine("Сгенерированный массив случайных букв:");
-            Console.WriteLine(el + "");
+            foreach (char el in array)
+                Console.WriteLine(el + "");
         }
     }
 }
