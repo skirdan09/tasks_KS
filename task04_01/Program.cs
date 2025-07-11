@@ -8,10 +8,15 @@
             int a = int.Parse(Console.ReadLine());
             Console.WriteLine("Введите ширину массива");
             int b = int.Parse(Console.ReadLine());
-            int[,] = new int[a, b];
+            int[,] array = new int[a, b];
             Random random = new Random();
             for (int i = 0; i < a; i++)
-              for (int j = 0; j <  ; j++)
+              for (int j = 0; j < b  ; j++)
+                {
+                    array[i, j] = random.Next(0;100);
+                }
+        
+
         }
     }
 }
